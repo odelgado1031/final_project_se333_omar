@@ -1,0 +1,11 @@
+[project]
+name = "se333-mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=2.13.1",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.21.0",
+]
